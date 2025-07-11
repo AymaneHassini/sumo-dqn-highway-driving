@@ -1,0 +1,3 @@
+*.net.xml
+__pycache__/
+*.pyc

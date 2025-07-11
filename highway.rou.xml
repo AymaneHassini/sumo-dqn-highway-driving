@@ -1,0 +1,8 @@
+<routes>
+    <vType id="EGO" vClass="passenger" color="1,0,0" length="5" />
+    <vType id="HUMAN" vClass="passenger" color="0,1,0" length="5" />
+    <route id="r_0" edges="E1" />
+
+    <flow id="ego_flow" type="EGO" route="r_0" begin="0" period="1" number="1" departLane="random" />
+    <flow id="human_flow" type="HUMAN" route="r_0" begin="0" end="100" number="10" />
+</routes>
