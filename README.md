@@ -30,7 +30,7 @@ The agent selects from five distinct driving actions:
 - Change Lane Left
 - Change Lane Right
 
-### ✅ Engineered Reward Function
+###  Engineered Reward Function
 A carefully designed reward function encourages target-speed driving (30 m/s) while heavily penalizing unsafe behavior:
 
 - **Collision**: `-10`
